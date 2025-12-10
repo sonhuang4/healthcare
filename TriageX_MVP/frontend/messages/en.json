@@ -1,0 +1,861 @@
+{
+  "common": {
+    "skipToContent": "Skip to main content",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "about": "About",
+    "resources": "Resources",
+    "contact": "Contact",
+    "startAssessment": "Start Assessment",
+    "start": "Start",
+    "toggleMenu": "Toggle menu"
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "input": "Input",
+    "analyzing": "Analyzing",
+    "results": "Results",
+    "about": "About",
+    "resources": "Resources",
+    "contact": "Contact"
+  },
+  "consent": {
+    "title": "Ready to Get Started?",
+    "importantToKnow": "Important to Know",
+    "disclaimer1": "TriageX does not provide a diagnosis. It offers level-of-care recommendations based on your input.",
+    "disclaimer2": "If uncertain, TriageX always recommends the higher level of care.",
+    "disclaimer3": "If your symptoms worsen or become severe, call emergency services (112) immediately.",
+    "disclaimer4": "The tool supports, but does not replace, professional medical judgment.",
+    "checkboxLabel": "I have read and understand the information above. I consent to using TriageX for triage assessment.",
+    "startCheck": "Start Check"
+  },
+  "emergency": {
+    "button": "Emergency?",
+    "ariaLabel": "Call emergency services 112"
+  },
+  "home": {
+    "hero": {
+      "title": "Need healthcare? Get instant guidance with our safe, smart virtual triage.",
+      "subtitle": "Know where to seek care and how urgent it is",
+      "startAssessment": "Start Assessment",
+      "learnHow": "Learn How It Works"
+    },
+    "modelLink": "More about this model �",
+    "features": {
+      "title": "Key Features",
+      "cards": {
+        "precision": {
+          "title": "Clinical Precision",
+          "description": "System created by medical doctors analyzes symptoms for accurate care recommendations."
+        },
+        "availability": {
+          "title": "24/7 Available",
+          "description": "Instant guidance anytime, anywhere."
+        },
+        "evidence": {
+          "title": "Evidence-Based",
+          "description": "Medical triage logic for safety-first care recommendations."
+        }
+      }
+    },
+    "stats": {
+      "items": {
+        "activeUsers": "Active Users",
+        "uptime": "Uptime",
+        "available": "Available"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": {
+        "describe": {
+          "title": "Describe Symptoms",
+          "description": "Enter symptoms and vital parameters."
+        },
+        "analyze": {
+          "title": "Smart Engine Analysis",
+          "description": "TriageX smart engine analyzes through our Four-Step Model."
+        },
+        "recommend": {
+          "title": "Get Recommendations",
+          "description": "Receive clear, color-coded care recommendations."
+        }
+      },
+      "cta": "Start Your Check"
+    },
+    "fourStep": {
+      "title": "Four-Step Model",
+      "subtitle": "Combines symptoms and vital parameters for safe, precise care guidance.",
+      "cards": {
+        "selfCare": {
+          "title": "Self-Care",
+          "description": "Mild symptoms, monitor at home."
+        },
+        "primaryCare": {
+          "title": "Primary Care",
+          "description": "Non-urgent, see doctor if persists."
+        },
+        "semiEmergency": {
+          "title": "Semi-Emergency",
+          "description": "Possible risk  seek care within hours."
+        },
+        "emergency": {
+          "title": "Emergency",
+          "description": "Critical  seek immediate care."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Trusted by health teams",
+      "subtitle": "Real-world feedback from care teams using TriageX for safe, timely decisions.",
+      "cards": {
+        "laura": {
+          "quote": "TriageX helped our clinic triage patients accurately within minutes. The system is incredibly intuitive.",
+          "name": "Laura S.",
+          "role": "Director of Telehealth, CalmCare Clinics"
+        },
+        "marcus": {
+          "quote": "AI and clear medical logic make it easy to communicate care levels to patients and teams.",
+          "name": "Dr. Marcus Ortega",
+          "role": "Chief Medical Officer, HealthFoundry"
+        },
+        "priya": {
+          "quote": "We rely on TriageXs four-step model to prioritize cases and reduce wait times.",
+          "name": "Priya N.",
+          "role": "Patient Experience Lead, Northwind Health"
+        }
+      }
+    },
+    "team": {
+      "label": "Medical Leadership",
+      "title": "Meet the Care Team Behind TriageX",
+      "subtitle": "Clinicians and health-tech leaders who design every workflow with hospital-grade safety in mind.",
+      "members": {
+        "hassan": {
+          "name": "Dr. Hassan Abdullahi Hassan",
+          "title": "Chief Executive Officer",
+          "bio": "Senior medical doctor, lawyer, and former police officer with extensive experience in ER/triage, possessing a broad expertise in medicine, law, and public safety."
+        },
+        "feysal": {
+          "name": "Dr. Feysal Abdullah",
+          "title": "Chief Medical Officer",
+          "bio": "Senior physician with over 15 years of experience in emergency medicine and triage."
+        },
+        "muna": {
+          "name": "Muna Nuur",
+          "title": "Chief Operating Officer",
+          "bio": "A lawyer and political scientist with international experience and expertise in regulations and the public sector."
+        }
+      }
+    },
+    "partners": {
+      "label": "For Hospital & Regional Leaders",
+      "title": "A Clinical Command Layer You Can Deploy in Weeks",
+      "description": "TriageX ingests symptoms, vitals, and local protocols to prioritize cases, guide frontline staff, and feed analytics into your command dashboards.",
+      "whyTitle": "Why Hospitals Choose TriageX",
+      "whyList": {
+        "item1": "Reduces waiting room bottlenecks with adaptive pathways.",
+        "item2": "Feeds structured data into your EHR and BI stack.",
+        "item3": "Built with emergency physicians, meets EU triage standards."
+      },
+      "useCasesTitle": "Use Cases We Support",
+      "useCases": {
+        "item1": "Hospital command centers",
+        "item2": "Regional virtual care hubs",
+        "item3": "Employer health programs",
+        "item4": "Disaster response escalations"
+      },
+      "cta": "Contact Partnerships",
+      "whatTitle": "What is TriageX?",
+      "whatDescription": "A clinician-built triage platform that adapts to your care pathways, surfaces risk instantly, and routes patients to safe destinations.",
+      "stats": {
+        "hospitals": "Hospitals deployed",
+        "wait": "Avg. wait time reduction",
+        "adoption": "Staff adoption",
+        "pathways": "Triage pathways"
+      },
+      "quote": {
+        "text": "TriageX gives our nurses a common dashboard and escalates risk before it hits the ED. Integration took under six weeks.",
+        "author": "Sofia Lindholm",
+        "role": "COO, Aurora Regional Health"
+      }
+    },
+    "consentSection": {
+      "title": "Ready to Get Started?",
+      "important": "Important to Know",
+      "items": {
+        "noDiagnosis": {
+          "title": "Not a Diagnosis",
+          "content": "TriageX does not provide a diagnosis. It offers level-of-care recommendations based on your input."
+        },
+        "higherCare": {
+          "title": "Safety-First Approach",
+          "content": "If uncertain, TriageX always recommends the higher level of care to ensure patient safety."
+        },
+        "emergency": {
+          "title": "Emergency Services",
+          "content": "If your symptoms worsen or become severe, call emergency services (112) immediately. Do not wait."
+        },
+        "judgment": {
+          "title": "Professional Judgment",
+          "content": "The tool supports, but does not replace, professional medical judgment. Always consult healthcare providers for serious concerns."
+        }
+      },
+      "checkbox": "I have read and understand the information above. I consent to using TriageX for triage assessment.",
+      "button": "Start Check"
+    },
+    "newsletter": {
+      "title": "Ready to Get the Right Care",
+      "subPrefix": "Subscribe to Our",
+      "subHighlight": "Newsletter",
+      "placeholder": "Enter your email",
+      "buttonFull": "Subscribe Now",
+      "buttonShort": "Subscribe"
+    },
+    "footer": {
+      "description": "Medical services are an essential part of our lives, offering care and treatment for various health conditions.",
+      "columns": {
+        "pages": "Page",
+        "links": "Link",
+        "contact": "Contact"
+      },
+      "links": {
+        "terms": "Terms & Conditions",
+        "privacy": "Privacy Policy",
+        "use": "Terms Of Use"
+      },
+      "contact": {
+        "address": "66 street, Sweden",
+        "phoneFull": "012 345 678 9101",
+        "phoneShort": "012 345 678",
+        "email": "contact@triagx.com"
+      },
+      "badges": {
+        "hipaa": "HIPAA",
+        "gdpr": "GDPR",
+        "iso": "ISO 27001"
+      },
+      "copyright": "� TriageX 2025"
+    },
+    "trustBadges": {
+      "ceMarked": "CE Marked",
+      "gdprCompliant": "GDPR Compliant",
+      "isoCertified": "ISO Certified",
+      "hipaaCompliant": "HIPAA Compliant"
+    }
+  },
+  "input": {
+    "progress": {
+      "stepOf": "Step {current} of {total}",
+      "assessment": "Assessment",
+      "labels": {
+        "age": "Age",
+        "gender": "Gender",
+        "symptoms": "Symptoms",
+        "vitals": "Vitals"
+      }
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "back": "Back",
+      "next": "Next",
+      "submit": "Submit"
+    },
+    "toast": {
+      "completeFields": "Please complete required fields before continuing.",
+      "submitError": "Please correct the highlighted fields before submitting."
+    },
+    "validation": {
+      "invalidValue": "Invalid value",
+      "ageRequired": "Age is required",
+      "ageInvalid": "Please enter a valid age",
+      "genderRequired": "Gender is required",
+      "symptomRequired": "Main symptom is required",
+      "temperatureRange": "Temperature must be between {min}-{max}�C",
+      "heartRateRange": "Heart rate must be between {min}-{max} bpm",
+      "spo2Range": "SpO� must be between {min}-{max}%",
+      "bloodPressureFormat": "Blood pressure must be in format: systolic/diastolic (e.g., 120/80)"
+    },
+    "steps": {
+      "age": {
+        "title": "What is your age?",
+        "subtitle": "This helps us provide age-appropriate recommendations",
+        "label": "Age",
+        "placeholder": "Enter your age"
+      },
+      "gender": {
+        "title": "What is your biological sex?",
+        "subtitle": "This information helps personalize your assessment",
+        "options": {
+          "male": "Biological Male",
+          "female": "Biological Female"
+        },
+        "pregnancy": {
+          "question": "Are you currently pregnant?",
+          "months": "How many months pregnant are you?",
+          "monthsPlaceholder": "Enter months (0-9)"
+        }
+      },
+      "symptoms": {
+        "title": "Describe your medical concern",
+        "subtitle": "Tell us about your symptoms or health concern",
+        "placeholder": "Describe your main symptom or concern...",
+        "quickSelect": {
+          "headache": "Headache",
+          "fever": "Fever",
+          "chestPain": "Chest Pain",
+          "swollenLeg": "Swollen Leg",
+          "shortnessBreath": "Shortness of Breath",
+          "dizziness": "Dizziness"
+        }
+      },
+      "vitals": {
+        "title": "Vital Parameters",
+        "subtitle": "Optional: Provide vital signs for more accurate assessment",
+        "disclaimer": {
+          "title": "Important:",
+          "body": "Please use CE-marked medical devices for accurate measurement."
+        },
+        "note": {
+          "title": "Note:",
+          "body": "All vital signs are optional but help provide more accurate recommendations."
+        },
+        "fields": {
+          "temperature": {
+            "label": "Temperature (�C)",
+            "placeholder": "e.g., 38.2",
+            "normal": "36.5-37.5�C"
+          },
+          "heartRate": {
+            "label": "Heart rate (bpm)",
+            "placeholder": "e.g., 88",
+            "normal": "60-100 bpm"
+          },
+          "spo2": {
+            "label": "SpO� (%)",
+            "placeholder": "e.g., 98",
+            "normal": "95-100%"
+          },
+          "bloodPressure": {
+            "label": "Blood Pressure (mmHg)",
+            "placeholder": "120/80",
+            "normal": "120/80 mmHg"
+          },
+          "duration": {
+            "label": "Duration",
+            "placeholder": "e.g., 2 days, 3 hours"
+          },
+          "respiratoryRate": {
+            "label": "Respiratory Rate (breaths/min)",
+            "placeholder": "e.g., 16",
+            "normal": "12-20 breaths/min"
+          },
+          "consciousness": {
+            "label": "Level of Consciousness",
+            "options": {
+              "alert": "Alert",
+              "verbal": "Responds to voice",
+              "pain": "Responds to pain",
+              "unresponsive": "Unresponsive"
+            }
+          },
+          "onset": {
+            "label": "Onset",
+            "options": {
+              "sudden": "Sudden",
+              "gradual": "Gradual",
+              "fluctuating": "Fluctuating"
+            }
+          },
+          "pain": {
+            "label": "Pain Level (1-10)"
+          }
+        }
+      }
+    },
+    "followUps": {
+      "swollenLeg": {
+        "title": "Follow-up Questions: Swollen Leg",
+        "questions": {
+          "redness": "Is the leg red or discolored?",
+          "warmth": "Is the leg warm to touch?",
+          "duration": "How long has the leg been swollen?"
+        },
+        "placeholder": "e.g., 2 days, 1 week"
+      },
+      "headInjury": {
+        "title": "Follow-up Questions: Head Injury",
+        "questions": {
+          "dizziness": "Are you experiencing dizziness?",
+          "vomiting": "Have you vomited?",
+          "consciousness": "Did you lose consciousness?"
+        }
+      },
+      "chestPain": {
+        "title": "Follow-up Questions: Chest Pain",
+        "questions": {
+          "radiation": "Does the pain radiate to your arm, jaw, or back?",
+          "breath": "Are you experiencing shortness of breath?",
+          "nausea": "Are you experiencing nausea?"
+        }
+      }
+    },
+    "options": {
+      "yes": "Yes",
+      "no": "No",
+      "notSure": "Not sure"
+    },
+    "vitalNames": {
+      "temperature": "Temperature",
+      "heart_rate": "Heart Rate",
+      "spo2": "SpO�",
+      "blood_pressure": "Blood Pressure",
+      "respiratory_rate": "Respiratory Rate",
+      "pain_level": "Pain Level"
+    },
+    "info": {
+      "close": "Close modal",
+      "symptom": {
+        "title": "Main Symptom",
+        "description": "Describe your primary symptom or concern. Be as specific as possible (e.g., \"chest pain\", \"headache for 3 days\", \"fever and cough\")."
+      },
+      "temperature": {
+        "title": "Temperature",
+        "description": "Measure your body temperature using a thermometer. Normal body temperature is around 36.5-37.5�C. Place the thermometer under your tongue or in your armpit for accurate reading."
+      },
+      "heart_rate": {
+        "title": "Heart Rate",
+        "description": "Find your pulse on your wrist or neck. Count the beats for 30 seconds and multiply by 2, or count for a full minute. Normal resting heart rate is 60-100 bpm."
+      },
+      "spo2": {
+        "title": "SpO� (Oxygen Saturation)",
+        "description": "Measure your blood oxygen level using a pulse oximeter. Place the device on your finger and wait for a reading. Normal SpO� is 95-100%. Values below 90% may indicate a medical emergency."
+      },
+      "blood_pressure": {
+        "title": "Blood Pressure",
+        "description": "Measure your blood pressure using a blood pressure monitor. Normal blood pressure is typically around 120/80 mmHg. Enter in format: systolic/diastolic (e.g., 120/80)."
+      },
+      "duration": {
+        "title": "Duration",
+        "description": "How long have you been experiencing these symptoms? This helps determine the urgency of care needed."
+      },
+      "respiratory_rate": {
+        "title": "Respiratory Rate",
+        "description": "Count the number of breaths per minute. Watch the chest rise and fall, count for 30 seconds and multiply by 2, or count for a full minute. Normal respiratory rate is 12-20 breaths per minute for adults."
+      },
+      "level_of_consciousness": {
+        "title": "Level of Consciousness",
+        "description": "Alert: Fully awake and responsive. Responds to voice: Reacts when spoken to. Responds to pain: Only responds to painful stimuli. Unresponsive: No response to any stimuli."
+      },
+      "onset": {
+        "title": "Onset",
+        "description": "Sudden: Symptoms appeared quickly (within minutes). Gradual: Symptoms developed slowly over hours or days. Fluctuating: Symptoms come and go or vary in intensity."
+      },
+      "pain_level": {
+        "title": "Pain Level",
+        "description": "Rate your pain on a scale of 0-10. 0 = No pain, 1-3 = Mild pain, 4-6 = Moderate pain, 7-8 = Severe pain, 9-10 = Extreme pain. This helps assess the severity of your condition."
+      }
+    },
+    "common": {
+      "na": "N/A"
+    },
+    "medicalHistory": {
+      "modal": {
+        "title": "Medical History",
+        "subtitle": "This information helps us provide a more accurate assessment",
+        "skip": "Skip",
+        "continue": "Continue",
+        "skipConfirm": "Are you sure? Your medical history will be skipped."
+      },
+      "yes": "Yes",
+      "no": "No",
+      "conditions": {
+        "question": "Do you have any medical conditions?",
+        "otherLabel": "Or describe other risk factors",
+        "otherPlaceholder": "Describe other risk factors or diseases you have..."
+      },
+      "medications": {
+        "title": "Medications",
+        "description": "Choose which medications you take regularly (especially blood thinners):",
+        "otherLabel": "Or describe other medications",
+        "otherPlaceholder": "Describe other medications you take regularly..."
+      },
+      "pregnancy": {
+        "question": "Pregnancy",
+        "followUp": "How far along are you?",
+        "trimester": {
+          "first": "First trimester (0-12 weeks)",
+          "second": "Second trimester (13-27 weeks)",
+          "third": "Third trimester (28+ weeks)"
+        },
+        "weeks": "Weeks",
+        "weeksPlaceholder": "e.g., 24"
+      },
+      "trauma": {
+        "question": "Recently severe trauma/injury",
+        "type": "What type of trauma/injury?",
+        "types": {
+          "head": "Head injury",
+          "chest": "Chest injury",
+          "abdomen": "Abdominal injury",
+          "limb": "Limb/Extremity injury",
+          "back": "Back/Spine injury",
+          "other": "Other"
+        },
+        "description": "Describe the trauma/injury",
+        "descriptionPlaceholder": "Please describe what happened, when it occurred, and any symptoms..."
+      },
+      "validation": {
+        "selectConditionOrText": "Please select at least one condition or provide details in the text field",
+        "selectMedicationOrText": "Please select at least one medication or provide details in the text field",
+        "selectTrimesterOrWeeks": "Please select a trimester or enter the number of weeks"
+      }
+    }
+  },
+  "processing": {
+    "progress": {
+      "step": "Step {current} of {total}",
+      "labels": {
+        "input": "Input",
+        "analyzing": "Analyzing",
+        "results": "Results"
+      }
+    },
+    "status": {
+      "title": "Analyzing your health information...",
+      "subtitle": "Please wait while we process your data and assess your risk level."
+    },
+    "steps": {
+      "collecting": "Collecting data",
+      "analyzing": "Analyzing symptoms",
+      "evaluating": "Evaluating risk level",
+      "generating": "Generating results"
+    },
+    "cta": "See Result"
+  },
+  "results": {
+    "loading": "Loading results...",
+    "shareSummary": {
+      "title": "TriageX Assessment Results",
+      "risk": "Risk Level: {level}",
+      "confidence": "Confidence: {value}%"
+    },
+    "toasts": {
+      "apiFallback": "We couldn't reach the server. Showing a demo assessment instead.",
+      "print": "Opening print dialog...",
+      "shareSuccess": "Results shared successfully.",
+      "shareCanceled": "Share canceled.",
+      "copySuccess": "Summary copied to clipboard. You can paste it anywhere.",
+      "copyFail": "Unable to copy summary. Please try again.",
+      "shareUnsupported": "Sharing is not supported on this device.",
+      "email": "Opening your email client..."
+    },
+    "progress": {
+      "step": "Step {current} of {total}",
+      "label": "Results"
+    },
+    "confidence": {
+      "label": "Confidence",
+      "tooltipTitle": "What affects confidence?",
+      "tooltipItems": [
+        "Completeness of symptoms provided",
+        "Accuracy of vital signs measurements",
+        "Clarity of symptom descriptions",
+        "Consistency of reported values"
+      ],
+      "high": "High confidence",
+      "moderate": "Moderate confidence",
+      "low": "Lower confidence - more information may help"
+    },
+    "lowConfidence": {
+      "title": "Low Confidence Assessment",
+      "description": "Based on the information provided, we have lower confidence in this assessment. For your safety, we recommend:",
+      "items": [
+        "Contact a healthcare provider for further assessment",
+        "Provide more detailed symptom information if possible",
+        "Monitor your symptoms closely and seek immediate care if they worsen"
+      ],
+      "actions": {
+        "call1177": "Call 1177 (Health Advice)",
+        "call112": "Call 112 (Emergency)"
+      }
+    },
+    "recommendations": "Recommendations:",
+    "explanation": {
+      "title": "Key Factors in This Assessment",
+      "subtitle": "The following factors influenced this recommendation:",
+      "increasedRisk": "Increased risk",
+      "decreasedRisk": "Decreased risk",
+      "category": {
+        "vital_signs": "Vital Signs",
+        "symptom_scenario": "Symptoms",
+        "general": "General",
+        "emergency": "Emergency"
+      }
+    },
+    "share": {
+      "print": "Print",
+      "share": "Share",
+      "email": "Email"
+    },
+    "actions": {
+      "checkAnother": "Check Another Symptom"
+    },
+    "fallback": {
+      "message": "Non-urgent, but medical review recommended.",
+      "recommendations": [
+        "Monitor symptoms at home",
+        "Contact primary care within 24-48 hours"
+      ],
+      "safety": "If symptoms worsen, contact emergency services immediately."
+    },
+    "disclaimer": {
+      "title": "Important:",
+      "body": "TriageX does not provide a diagnosis. It offers level-of-care recommendations based on your input. If your symptoms worsen or become severe, call emergency services (112) immediately. The tool supports, but does not replace, professional medical judgment."
+    },
+    "triage": {
+      "self_care": {
+        "title": "Self-Care",
+        "description": "Mild symptoms, safe to monitor at home."
+      },
+      "primary_care": {
+        "title": "Primary Care",
+        "description": "Non-urgent, see a doctor if symptoms persist."
+      },
+      "semi_emergency": {
+        "title": "Semi-Emergency",
+        "description": "Possible risk  seek care within hours."
+      },
+      "emergency": {
+        "title": "Emergency",
+        "description": "Critical  seek medical attention immediately."
+      }
+    },
+    "triageContent": {
+      "self_care": {
+        "message": "Mild symptoms that can be safely managed at home.",
+        "recommendations": [
+          "Rest, stay hydrated, and get adequate sleep",
+          "Track your symptoms for any changes",
+          "Use over-the-counter relief if needed",
+          "Seek medical care if symptoms suddenly worsen"
+        ],
+        "safety": "If new symptoms appear or you feel worse, contact healthcare services."
+      },
+      "primary_care": {
+        "message": "Non-urgent, but medical review recommended within 24-48 hours.",
+        "recommendations": [
+          "Schedule an appointment with your primary care provider",
+          "Monitor symptoms closely",
+          "Keep a symptom diary",
+          "Seek care if symptoms worsen"
+        ],
+        "safety": "This assessment has lower confidence due to incomplete information. Please contact a healthcare provider for further assessment."
+      },
+      "semi_emergency": {
+        "message": "Potential risk detectedseek care within a few hours.",
+        "recommendations": [
+          "Contact an urgent care clinic",
+          "Arrange transportation to a healthcare facility",
+          "Have someone stay with you and monitor symptoms",
+          "Bring your medical history and medication list"
+        ],
+        "safety": "If symptoms escalate or breathing becomes difficult, call emergency services immediately."
+      },
+      "emergency": {
+        "message": "Critical symptoms detectedseek emergency care immediately.",
+        "recommendations": [
+          "Call emergency services (112) right away",
+          "Do not drive yourself; wait for medical transport",
+          "Keep the airway clear and follow dispatcher instructions",
+          "Have someone gather medications and ID for responders"
+        ],
+        "safety": "Stay on the line with emergency services until help arrives."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About TriageX",
+      "subtitle": "Building the future of healthcare triage through AI-powered decision support."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Make healthcare triage accessible, accurate, and safe by combining AI with evidence-based medical logic."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "A world where every patient receives timely, appropriate care guidance while AI triage shortens wait times."
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Built by clinicians, data scientists, engineers, and healthcare innovators.",
+      "cards": {
+        "clinical": {
+          "title": "Clinical Excellence",
+          "description": "Decades of emergency medicine, primary care, and triage experience keep our AI aligned with best practices."
+        },
+        "ai": {
+          "title": "AI Innovation",
+          "description": "Cutting-edge AI models learn from real-world triage data while maintaining safety and interpretability."
+        },
+        "impact": {
+          "title": "Healthcare Impact",
+          "description": "We partner with health systems, product teams, and compliance leaders for seamless deployments."
+        }
+      }
+    },
+    "compliance": {
+      "title": "Compliance & Trust",
+      "description": "Designed with regulatory compliance and patient safety at the core. We maintain the highest standards for privacy and security.",
+      "badges": {
+        "hipaa": {
+          "title": "HIPAA Compliant",
+          "subtitle": "Protected health information"
+        },
+        "gdpr": {
+          "title": "GDPR Ready",
+          "subtitle": "EU data protection"
+        },
+        "iso": {
+          "title": "ISO 27001",
+          "subtitle": "Information security"
+        },
+        "mdr": {
+          "title": "MDR Class I",
+          "subtitle": "Medical device ready"
+        }
+      },
+      "footer": "Regular security audits, compliance reviews, and clinical validation keep us aligned with the highest standards."
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Experience TriageX for yourself or reach out to learn how we can help your organization improve patient triage.",
+      "primaryButton": "Start Assessment",
+      "primaryButtonMobile": "Start",
+      "secondaryButton": "Contact Us"
+    }
+  },
+  "resources": {
+    "hero": {
+      "title": "Resources to launch and scale",
+      "subtitle": "Downloadable guides, checklists, and enablement assets for clinical innovators, product teams, and compliance leads."
+    },
+    "columns": {
+      "implementation": {
+        "title": "Implementation Guides",
+        "subtitle": "Curated assets to inform stakeholders and maintain quality.",
+        "cards": {
+          "clinicalQuickStart": {
+            "title": "Quick start for clinical teams",
+            "description": "Embed TriageX into a digital front door quickly."
+          },
+          "apiSheet": {
+            "title": "API & Integration Cheatsheet",
+            "description": "REST endpoints, payload examples, and auth options."
+          },
+          "mdrChecklist": {
+            "title": "MDR alignment checklist",
+            "description": "Documentation package for EU MDR Class I compliance reviews."
+          }
+        }
+      },
+      "product": {
+        "title": "Product Sheets",
+        "subtitle": "Curated assets to inform stakeholders and maintain quality.",
+        "cards": {
+          "investor": {
+            "title": "Investor one-pager",
+            "description": "AI model, triage logic, and traction metrics."
+          },
+          "workflow": {
+            "title": "Clinical workflow poster",
+            "description": "Printable flow for waiting rooms and triage hubs."
+          },
+          "tokens": {
+            "title": "Design system tokens",
+            "description": "Color, typography, and interaction tokens."
+          }
+        }
+      },
+      "thought": {
+        "title": "Thought Leadership",
+        "subtitle": "Curated assets to inform stakeholders and maintain quality.",
+        "cards": {
+          "hybrid": {
+            "title": "AI triage in hybrid care",
+            "description": "Whitepaper on reducing wait times across virtual and in-person visits."
+          },
+          "literacy": {
+            "title": "Designing for health literacy",
+            "description": "UX patterns that improve comprehension for at-home triage."
+          },
+          "governance": {
+            "title": "Safety-first AI governance",
+            "description": "Playbook for monitoring model drift and escalation rules."
+          }
+        }
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Speak with the TriageX team",
+      "subtitle": "Whether you're a clinician validating AI triage logic or a product leader planning a pilot, we'd love to hear from you."
+    },
+    "form": {
+      "labels": {
+        "fullName": "Full name",
+        "workEmail": "Work email",
+        "organization": "Organization",
+        "primaryTopic": "Primary topic",
+        "message": "Message"
+      },
+      "placeholders": {
+        "fullName": "Enter your full name",
+        "workEmail": "name@company.com",
+        "organization": "Enter your organization",
+        "message": "Share your goals, timelines, and any questions."
+      },
+      "topics": {
+        "placeholder": "Select a topic",
+        "clinicalPilot": "Clinical Pilot",
+        "productIntegration": "Product Integration",
+        "compliance": "Compliance & Regulations",
+        "partnership": "Partnership Opportunities",
+        "other": "Other"
+      },
+      "disclaimer": "By submitting, you agree to TriageX keeping you updated about clinical pilots and product news.",
+      "submit": "Submit"
+    },
+    "validation": {
+      "fullNameRequired": "Full name is required",
+      "workEmailRequired": "Work email is required",
+      "workEmailInvalid": "Please enter a valid email address",
+      "organizationRequired": "Organization is required",
+      "primaryTopicRequired": "Please select a primary topic",
+      "messageRequired": "Message is required"
+    }
+  },
+  "vitalConfirm": {
+    "title": "Confirm Vital Sign",
+    "subtitle": "Are you sure this value is correct?",
+    "confirm": "Yes, this is correct",
+    "reject": "No, let me change it",
+    "help": "Need immediate help?",
+    "call1177": "Call 1177 (Health Advice)",
+    "call112": "Call 112 (Emergency)"
+  }
+}

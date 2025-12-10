@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Accessibility: Screen reader only class */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: "Inter", "Work Sans", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+      "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f9fafb;
+    color: #1e293b;
+  }
+}
+
+@layer utilities {
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  /* Tech glow animation */
+  .tech-glow-animate {
+    animation: tech-glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes tech-glow {
+    0% {
+      box-shadow: 0 0 10px rgba(0, 168, 118, 0.2),
+        0 0 20px rgba(0, 168, 118, 0.1);
+    }
+    100% {
+      box-shadow: 0 0 20px rgba(0, 168, 118, 0.4),
+        0 0 40px rgba(0, 168, 118, 0.2);
+    }
+  }
+
+  /* Subtle tech border */
+  .tech-border {
+    border: 1px solid rgba(0, 168, 118, 0.2);
+    box-shadow: inset 0 0 10px rgba(0, 168, 118, 0.05);
+  }
+
+  /* Dark tech background with subtle pattern */
+  .tech-bg {
+    background: linear-gradient(135deg, #0a1a15 0%, #0f1f1a 50%, #0a1a15 100%);
+    position: relative;
+  }
+
+  .tech-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: radial-gradient(
+        circle at 20% 50%,
+        rgba(0, 168, 118, 0.03) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 80% 80%,
+        rgba(0, 168, 118, 0.03) 0%,
+        transparent 50%
+      );
+    pointer-events: none;
+  }
+
+  .logo-mask img {
+    mix-blend-mode: normal;
+    filter: none;
+    background: transparent !important;
+  }
+
+  /* Remove white shadow/outline from footer logo - Use filter to remove white only */
+  footer .footer-logo-wrapper {
+    position: relative;
+  }
+
+  footer .footer-logo-wrapper .logo-mask img,
+  footer .logo-mask img,
+  footer img[alt*="TriageX"],
+  footer [class*="logo"] img {
+    /* Use filter to remove white pixels while preserving colors */
+    filter: brightness(1.1) contrast(1.2) saturate(1.1) !important;
+    -webkit-filter: brightness(1.1) contrast(1.2) saturate(1.1) !important;
+    text-shadow: none !important;
+    -webkit-text-stroke: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    mix-blend-mode: normal !important;
+  }
+
+  /* Animated Emerald Gradient Background - reusable across sections */
+  .hero-animated-bg,
+  .emerald-gradient-bg {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(
+      135deg,
+      #002e24 0%,
+      #004a3a 25%,
+      #006b54 50%,
+      #004a3a 75%,
+      #002e24 100%
+    );
+    background-size: 400% 400%;
+    animation: gradient-flow 15s ease infinite;
+  }
+
+  @keyframes gradient-flow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .hero-animated-bg::before,
+  .emerald-gradient-bg::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(
+        circle at 20% 30%,
+        rgba(0, 168, 118, 0.3) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 80% 70%,
+        rgba(0, 107, 84, 0.25) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 50% 50%,
+        rgba(38, 201, 154, 0.2) 0%,
+        transparent 60%
+      );
+    animation: gradient-mesh 20s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  .hero-animated-bg::after,
+  .emerald-gradient-bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        45deg,
+        transparent 30%,
+        rgba(0, 168, 118, 0.15) 50%,
+        transparent 70%
+      ),
+      linear-gradient(
+        -45deg,
+        transparent 30%,
+        rgba(38, 201, 154, 0.1) 50%,
+        transparent 70%
+      );
+    animation: gradient-shift 12s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  @keyframes gradient-mesh {
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1) rotate(0deg);
+      opacity: 1;
+    }
+    33% {
+      transform: translate(10%, 10%) scale(1.2) rotate(5deg);
+      opacity: 0.9;
+    }
+    66% {
+      transform: translate(-10%, 10%) scale(0.8) rotate(-5deg);
+      opacity: 0.95;
+    }
+  }
+
+  @keyframes gradient-shift {
+    0%,
+    100% {
+      transform: translateX(0) translateY(0) rotate(0deg);
+      opacity: 0.6;
+    }
+    50% {
+      transform: translateX(30px) translateY(-30px) rotate(5deg);
+      opacity: 0.8;
+    }
+  }
+
+  /* Pulsing glow effect */
+  .hero-pulse-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle,
+      rgba(0, 168, 118, 0.2) 0%,
+      transparent 70%
+    );
+    animation: pulse-glow 4s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  @keyframes pulse-glow {
+    0%,
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0.3;
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.5);
+      opacity: 0.6;
+    }
+  }
+
+  /* Flowing wave animation */
+  .hero-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    height: 100px;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(0, 168, 118, 0.1) 25%,
+      rgba(38, 201, 154, 0.15) 50%,
+      rgba(0, 168, 118, 0.1) 75%,
+      transparent 100%
+    );
+    animation: wave-flow 8s linear infinite;
+    pointer-events: none;
+    opacity: 0.6;
+  }
+
+  .hero-wave:nth-child(2) {
+    animation-delay: -2s;
+    opacity: 0.4;
+    height: 80px;
+  }
+
+  .hero-wave:nth-child(3) {
+    animation-delay: -4s;
+    opacity: 0.3;
+    height: 60px;
+  }
+
+  @keyframes wave-flow {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  /* Floating particles animation - Enhanced for dark background */
+  @keyframes float-particle {
+    0% {
+      transform: translateY(0) translateX(0) scale(1);
+      opacity: 0.6;
+    }
+    25% {
+      transform: translateY(-40px) translateX(20px) scale(1.3);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-80px) translateX(-20px) scale(0.9);
+      opacity: 0.8;
+    }
+    75% {
+      transform: translateY(-40px) translateX(15px) scale(1.15);
+      opacity: 0.95;
+    }
+    100% {
+      transform: translateY(0) translateX(0) scale(1);
+      opacity: 0.7;
+    }
+  }
+
+  @keyframes particle-glow {
+    0%,
+    100% {
+      box-shadow: 0 0 8px rgba(0, 168, 118, 0.6),
+        0 0 16px rgba(0, 168, 118, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 16px rgba(0, 168, 118, 0.9),
+        0 0 32px rgba(0, 168, 118, 0.5);
+    }
+  }
+
+  .particle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(38, 201, 154, 0.85);
+    pointer-events: none;
+    animation: float-particle 10s ease-in-out infinite,
+      particle-glow 2.5s ease-in-out infinite;
+    filter: drop-shadow(0 0 8px rgba(38, 201, 154, 0.8));
+  }
+
+  .particle:nth-child(1) {
+    width: 16px;
+    height: 16px;
+    left: 10%;
+    top: 20%;
+    animation-delay: 0s;
+    animation-duration: 12s;
+  }
+
+  .particle:nth-child(2) {
+    width: 18px;
+    height: 18px;
+    left: 20%;
+    top: 60%;
+    animation-delay: 1s;
+    animation-duration: 14s;
+  }
+
+  .particle:nth-child(3) {
+    width: 14px;
+    height: 14px;
+    left: 80%;
+    top: 30%;
+    animation-delay: 2s;
+    animation-duration: 11s;
+  }
+
+  .particle:nth-child(4) {
+    width: 17px;
+    height: 17px;
+    left: 70%;
+    top: 70%;
+    animation-delay: 3s;
+    animation-duration: 13s;
+  }
+
+  .particle:nth-child(5) {
+    width: 16px;
+    height: 16px;
+    left: 50%;
+    top: 10%;
+    animation-delay: 4s;
+    animation-duration: 15s;
+  }
+
+  .particle:nth-child(6) {
+    width: 14px;
+    height: 14px;
+    left: 30%;
+    top: 80%;
+    animation-delay: 5s;
+    animation-duration: 10s;
+  }
+
+  .particle:nth-child(7) {
+    width: 20px;
+    height: 20px;
+    left: 90%;
+    top: 50%;
+    animation-delay: 6s;
+    animation-duration: 16s;
+  }
+
+  .particle:nth-child(8) {
+    width: 15px;
+    height: 15px;
+    left: 15%;
+    top: 50%;
+    animation-delay: 7s;
+    animation-duration: 13s;
+  }
+
+  .particle:nth-child(9) {
+    width: 13px;
+    height: 13px;
+    left: 60%;
+    top: 25%;
+    animation-delay: 8s;
+    animation-duration: 12s;
+  }
+
+  .particle:nth-child(10) {
+    width: 22px;
+    height: 22px;
+    left: 40%;
+    top: 90%;
+    animation-delay: 9s;
+    animation-duration: 17s;
+  }
+}
+
+/* Print Styles */
+@media print {
+  /* Hide non-essential elements when printing */
+  header,
+  footer,
+  nav,
+  .no-print,
+  button:not(.print-button),
+  a:not(.print-link),
+  .breadcrumbs,
+  .language-toggle,
+  .emergency-button {
+    display: none !important;
+  }
+
+  /* Optimize results page for printing */
+  .print-results {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Ensure good contrast and readability */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt !important;
+  }
+
+  /* Page breaks */
+  .page-break {
+    page-break-after: always;
+  }
+
+  .no-break {
+    page-break-inside: avoid;
+  }
+
+  /* Ensure cards print well */
+  .rounded-3xl,
+  .rounded-2xl {
+    border: 1px solid #000 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+
+  /* Hide animations and interactive elements */
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* Show URLs for links */
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+    color: #666;
+  }
+
+  /* Optimize colors for print */
+  .bg-primary-DEFAULT,
+  .text-primary-DEFAULT {
+    color: #000 !important;
+    background: transparent !important;
+  }
+
+  /* Ensure risk badge is visible */
+  .risk-badge {
+    border: 2px solid #000 !important;
+    box-shadow: none !important;
+  }
+}

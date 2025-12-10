@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyzing Health Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">TriageX</h1>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="processing-card">
+                <div class="processing-icon">
+                    <div class="spinner"></div>
+                </div>
+                <h2 class="processing-title">Analyzing your health information...</h2>
+                <p class="processing-text">Please wait while we process your data and assess your risk level.</p>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                
+                <div class="processing-steps">
+                    <div class="step active" id="step1">
+                        <span class="step-icon">✓</span>
+                        <span class="step-text">Collecting data</span>
+                    </div>
+                    <div class="step" id="step2">
+                        <span class="step-icon">⏳</span>
+                        <span class="step-text">Analyzing symptoms</span>
+                    </div>
+                    <div class="step" id="step3">
+                        <span class="step-icon">⏳</span>
+                        <span class="step-text">Evaluating risk level</span>
+                    </div>
+                    <div class="step" id="step4">
+                        <span class="step-icon">⏳</span>
+                        <span class="step-text">Generating results</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">
+                © 2024 TriageX. This tool is for educational and informational purposes only. 
+                Not intended to replace professional medical consultation, diagnosis, or treatment.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Start processing animation
+        startProcessing();
+    </script>
+</body>
+</html>
+

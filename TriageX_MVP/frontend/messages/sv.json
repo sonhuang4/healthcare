@@ -1,0 +1,861 @@
+{
+  "common": {
+    "skipToContent": "Hoppa till huvudinneh�ll",
+    "close": "St�ng",
+    "loading": "Laddar...",
+    "error": "Fel",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "continue": "Forts�tt",
+    "back": "Tillbaka",
+    "next": "N�sta",
+    "submit": "Skicka"
+  },
+  "nav": {
+    "home": "Hem",
+    "features": "Funktioner",
+    "howItWorks": "S� fungerar det",
+    "about": "Om oss",
+    "resources": "Resurser",
+    "contact": "Kontakt",
+    "startAssessment": "Starta bed�mning",
+    "start": "Starta",
+    "toggleMenu": "V�xla meny"
+  },
+  "breadcrumbs": {
+    "home": "Hem",
+    "input": "Input",
+    "analyzing": "Analys",
+    "results": "Resultat",
+    "about": "Om oss",
+    "resources": "Resurser",
+    "contact": "Kontakt"
+  },
+  "consent": {
+    "title": "Redo att komma ig�ng?",
+    "importantToKnow": "Viktigt att veta",
+    "disclaimer1": "TriageX ger inte en diagnos. Det erbjuder v�rdniv�rekommendationer baserat p� din input.",
+    "disclaimer2": "Om os�ker rekommenderar TriageX alltid den h�gre v�rdniv�n.",
+    "disclaimer3": "Om dina symptom f�rv�rras eller blir allvarliga, ring akutnummer 112 omedelbart.",
+    "disclaimer4": "Verktyget st�djer, men ers�tter inte, professionellt medicinskt omd�me.",
+    "checkboxLabel": "Jag har l�st och f�rst�r informationen ovan. Jag samtycker till att anv�nda TriageX f�r triagebed�mning.",
+    "startCheck": "Starta kontroll"
+  },
+  "emergency": {
+    "button": "Akut?",
+    "ariaLabel": "Ring akutnummer 112"
+  },
+  "home": {
+    "hero": {
+      "title": "Beh�ver du v�rd? F� snabb och trygg v�gledning med v�r virtuella triage.",
+      "subtitle": "Ta reda p� vart du ska och hur akut det �r",
+      "startAssessment": "Starta bed�mning",
+      "learnHow": "L�r dig hur det fungerar"
+    },
+    "modelLink": "Mer om modellen �",
+    "features": {
+      "title": "Viktiga funktioner",
+      "cards": {
+        "precision": {
+          "title": "Klinisk precision",
+          "description": "System skapat av l�kare analyserar symtom f�r tr�ffs�kra v�rdrekommendationer."
+        },
+        "availability": {
+          "title": "Tillg�nglig dygnet runt",
+          "description": "Omedelbar v�gledning n�r som helst, var som helst."
+        },
+        "evidence": {
+          "title": "Evidensbaserad",
+          "description": "Medicinsk triagelogik f�r s�kra v�rdrekommendationer."
+        }
+      }
+    },
+    "stats": {
+      "items": {
+        "activeUsers": "Aktiva anv�ndare",
+        "uptime": "Drifttid",
+        "available": "Tillg�ngligt"
+      }
+    },
+    "howItWorks": {
+      "title": "S� fungerar det",
+      "steps": {
+        "describe": {
+          "title": "Beskriv symptom",
+          "description": "Ange symtom och vitalparametrar."
+        },
+        "analyze": {
+          "title": "Smart motoranalys",
+          "description": "TriageX smart motor analyserar via v�r fyrastegsmodell."
+        },
+        "recommend": {
+          "title": "F� rekommendationer",
+          "description": "Ta emot tydliga, f�rgkodade v�rdrekommendationer."
+        }
+      },
+      "cta": "Starta din kontroll"
+    },
+    "fourStep": {
+      "title": "Fyrastegsmodell",
+      "subtitle": "Kombinerar symtom och vitalparametrar f�r s�ker och precis v�gledning.",
+      "cards": {
+        "selfCare": {
+          "title": "Egenv�rd",
+          "description": "Milda symptom, f�lj upp hemma."
+        },
+        "primaryCare": {
+          "title": "Prim�rv�rd",
+          "description": "Ej akut  upps�k l�kare om det best�r."
+        },
+        "semiEmergency": {
+          "title": "Halvakut",
+          "description": "M�jlig risk  s�k v�rd inom n�gra timmar."
+        },
+        "emergency": {
+          "title": "Akut",
+          "description": "Kritiskt  s�k omedelbar v�rd."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Tillit fr�n v�rdteam",
+      "subtitle": "R�ster fr�n v�rdpersonal som anv�nder TriageX f�r s�kra och snabba beslut.",
+      "cards": {
+        "laura": {
+          "quote": "TriageX hj�lpte v�r klinik att triagera patienter korrekt p� n�gra minuter. Systemet �r otroligt intuitivt.",
+          "name": "Laura S.",
+          "role": "Chef f�r distansv�rd, CalmCare Clinics"
+        },
+        "marcus": {
+          "quote": "AI och tydlig medicinsk logik g�r det enkelt att kommunicera v�rdniv�er till patienter och team.",
+          "name": "Dr. Marcus Ortega",
+          "role": "Chefs�verl�kare, HealthFoundry"
+        },
+        "priya": {
+          "quote": "Vi f�rlitar oss p� TriageX fyrastegsmodell f�r att prioritera �renden och minska v�ntetider.",
+          "name": "Priya N.",
+          "role": "Ansvarig f�r patientupplevelser, Northwind Health"
+        }
+      }
+    },
+    "team": {
+      "label": "Medicinsk ledning",
+      "title": "M�t v�rdteamet bakom TriageX",
+      "subtitle": "Kliniker och h�lsoteknikledare som designar varje arbetsfl�de med sjukhuskvalitet i fokus.",
+      "members": {
+        "hassan": {
+          "name": "Dr. Hassan Abdullahi Hassan",
+          "title": "Verkst�llande direkt�r",
+          "bio": "Senior l�kare, jurist och tidigare polis med omfattande erfarenhet av akutv�rd/triage, med bred expertis inom medicin, juridik och allm�n s�kerhet."
+        },
+        "feysal": {
+          "name": "Dr. Feysal Abdullah",
+          "title": "Chefs�verl�kare",
+          "bio": "Senior l�kare med �ver 15 �rs erfarenhet av akutsjukv�rd och triage."
+        },
+        "muna": {
+          "name": "Muna Nuur",
+          "title": "Operativ chef",
+          "bio": "Jurist och statsvetare med internationell erfarenhet och expertis inom regelverk och offentlig sektor."
+        }
+      }
+    },
+    "partners": {
+      "label": "F�r sjukhus- och regionledare",
+      "title": "Ett kliniskt kommandolager du kan drifts�tta p� veckor",
+      "description": "TriageX tar emot symtom, vitalparametrar och lokala protokoll f�r att prioritera �renden, guida personalen och mata analysdata in i era ledningspaneler.",
+      "whyTitle": "Varf�r sjukhus v�ljer TriageX",
+      "whyList": {
+        "item1": "Minskar flaskhalsar i v�ntrum med adaptiva patientfl�den.",
+        "item2": "Matar strukturerad data in i ert journalsystem och BI-stack.",
+        "item3": "Utvecklad med akutl�kare och uppfyller EU:s triagestandarder."
+      },
+      "useCasesTitle": "Anv�ndningsfall vi st�ttar",
+      "useCases": {
+        "item1": "Sjukhusens kommandocentraler",
+        "item2": "Regionala virtuella v�rdnav",
+        "item3": "Arbetsgivarprogram f�r h�lsa",
+        "item4": "Eskaleringsst�d vid kriser"
+      },
+      "cta": "Kontakta partnerskap",
+      "whatTitle": "Vad �r TriageX?",
+      "whatDescription": "En triageplattform byggd av kliniker som anpassar sig efter era v�rdfl�den, visar risk direkt och lotsar patienter till s�kra destinationer.",
+      "stats": {
+        "hospitals": "Implementerade sjukhus",
+        "wait": "Snittminskning av v�ntetid",
+        "adoption": "Personalens anv�ndning",
+        "pathways": "Triagesp�r"
+      },
+      "quote": {
+        "text": "TriageX ger v�ra sjuksk�terskor ett gemensamt gr�nssnitt och flaggar risk innan det n�r akuten. Integrationen tog under sex veckor.",
+        "author": "Sofia Lindholm",
+        "role": "COO, Aurora Regional Health"
+      }
+    },
+    "consentSection": {
+      "title": "Redo att komma ig�ng?",
+      "important": "Viktigt att veta",
+      "items": {
+        "noDiagnosis": {
+          "title": "Ingen diagnos",
+          "content": "TriageX ger inte en diagnos utan v�rdniv�rekommendationer baserat p� dina uppgifter."
+        },
+        "higherCare": {
+          "title": "S�kerhetsf�rst",
+          "content": "Vid os�kerhet rekommenderar TriageX alltid en h�gre v�rdniv� f�r att skydda patienten."
+        },
+        "emergency": {
+          "title": "Akut hj�lp",
+          "content": "Om symtomen f�rv�rras eller blir allvarliga, ring 112 omedelbart. V�nta inte."
+        },
+        "judgment": {
+          "title": "Professionellt omd�me",
+          "content": "Verktyget st�der, men ers�tter inte, medicinskt omd�me. Kontakta alltid v�rden vid allvarliga besv�r."
+        }
+      },
+      "checkbox": "Jag har l�st och f�rst�tt informationen ovan. Jag samtycker till att anv�nda TriageX f�r triagebed�mning.",
+      "button": "Starta kontroll"
+    },
+    "newsletter": {
+      "title": "Redo att f� r�tt v�rd",
+      "subPrefix": "Prenumerera p� v�rt",
+      "subHighlight": "Nyhetsbrev",
+      "placeholder": "Ange din e-postadress",
+      "buttonFull": "Prenumerera nu",
+      "buttonShort": "Prenumerera"
+    },
+    "footer": {
+      "description": "Medicinska tj�nster �r en viktig del av v�ra liv och erbjuder v�rd och behandling f�r olika tillst�nd.",
+      "columns": {
+        "pages": "Sidor",
+        "links": "L�nkar",
+        "contact": "Kontakt"
+      },
+      "links": {
+        "terms": "Allm�nna villkor",
+        "privacy": "Integritetspolicy",
+        "use": "Anv�ndarvillkor"
+      },
+      "contact": {
+        "address": "66 street, Sverige",
+        "phoneFull": "012 345 678 9101",
+        "phoneShort": "012 345 678",
+        "email": "contact@triagx.com"
+      },
+      "badges": {
+        "hipaa": "HIPAA",
+        "gdpr": "GDPR",
+        "iso": "ISO 27001"
+      },
+      "copyright": "� TriageX 2025"
+    },
+    "trustBadges": {
+      "ceMarked": "CE-m�rkt",
+      "gdprCompliant": "GDPR-efterlevnad",
+      "isoCertified": "ISO-certifierad",
+      "hipaaCompliant": "HIPAA-efterlevnad"
+    }
+  },
+  "input": {
+    "progress": {
+      "stepOf": "Steg {current} av {total}",
+      "assessment": "Bed�mning",
+      "labels": {
+        "age": "�lder",
+        "gender": "K�n",
+        "symptoms": "Symtom",
+        "vitals": "Vitalparametrar"
+      }
+    },
+    "buttons": {
+      "cancel": "Avbryt",
+      "back": "Tillbaka",
+      "next": "N�sta",
+      "submit": "Skicka"
+    },
+    "toast": {
+      "completeFields": "Fyll i obligatoriska f�lt innan du forts�tter.",
+      "submitError": "Korrigera markerade f�lt innan du skickar."
+    },
+    "validation": {
+      "invalidValue": "Ogiltigt v�rde",
+      "ageRequired": "�lder �r obligatoriskt",
+      "ageInvalid": "Ange en giltig �lder",
+      "genderRequired": "K�n �r obligatoriskt",
+      "symptomRequired": "Huvudsymtom �r obligatoriskt",
+      "temperatureRange": "Temperaturen m�ste vara mellan {min}-{max}�C",
+      "heartRateRange": "Pulsen m�ste vara mellan {min}-{max} slag/min",
+      "spo2Range": "SpO� m�ste vara mellan {min}-{max}%",
+      "bloodPressureFormat": "Blodtryck m�ste anges i formatet systoliskt/diastoliskt (t.ex. 120/80)"
+    },
+    "steps": {
+      "age": {
+        "title": "Hur gammal �r du?",
+        "subtitle": "Detta hj�lper oss att ge �ldersanpassade rekommendationer",
+        "label": "�lder",
+        "placeholder": "Ange din �lder"
+      },
+      "gender": {
+        "title": "Vad �r ditt biologiska k�n?",
+        "subtitle": "Denna information hj�lper oss att anpassa din bed�mning",
+        "options": {
+          "male": "Biologisk man",
+          "female": "Biologisk kvinna"
+        },
+        "pregnancy": {
+          "question": "�r du f�r n�rvarande gravid?",
+          "months": "Hur m�nga m�nader gravid �r du?",
+          "monthsPlaceholder": "Ange m�nader (0-9)"
+        }
+      },
+      "symptoms": {
+        "title": "Beskriv ditt medicinska �rende",
+        "subtitle": "Ber�tta om dina symtom eller din h�lsobesv�r",
+        "placeholder": "Beskriv ditt huvudsymtom eller besv�r...",
+        "quickSelect": {
+          "headache": "Huvudv�rk",
+          "fever": "Feber",
+          "chestPain": "Br�stsm�rta",
+          "swollenLeg": "Svullet ben",
+          "shortnessBreath": "Andf�ddhet",
+          "dizziness": "Yrsel"
+        }
+      },
+      "vitals": {
+        "title": "Vitalparametrar",
+        "subtitle": "Valfritt: ange vitalparametrar f�r mer exakt bed�mning",
+        "disclaimer": {
+          "title": "Viktigt:",
+          "body": "Anv�nd CE-m�rkta medicinska enheter f�r korrekta m�tningar."
+        },
+        "note": {
+          "title": "Observera:",
+          "body": "Alla vitalparametrar �r frivilliga men ger mer tr�ffs�kra rekommendationer."
+        },
+        "fields": {
+          "temperature": {
+            "label": "Temperatur (�C)",
+            "placeholder": "t.ex. 38,2",
+            "normal": "36,537,5 �C"
+          },
+          "heartRate": {
+            "label": "Puls (slag/min)",
+            "placeholder": "t.ex. 88",
+            "normal": "60100 slag/min"
+          },
+          "spo2": {
+            "label": "SpO� (%)",
+            "placeholder": "t.ex. 98",
+            "normal": "95100 %"
+          },
+          "bloodPressure": {
+            "label": "Blodtryck (mmHg)",
+            "placeholder": "120/80",
+            "normal": "120/80 mmHg"
+          },
+          "duration": {
+            "label": "Varaktighet",
+            "placeholder": "t.ex. 2 dagar, 3 timmar"
+          },
+          "respiratoryRate": {
+            "label": "Andningsfrekvens (andetag/min)",
+            "placeholder": "t.ex. 16",
+            "normal": "1220 andetag/min"
+          },
+          "consciousness": {
+            "label": "Medvetandegrad",
+            "options": {
+              "alert": "Vaken",
+              "verbal": "Reagerar p� r�st",
+              "pain": "Reagerar p� sm�rta",
+              "unresponsive": "Ingen respons"
+            }
+          },
+          "onset": {
+            "label": "Debut",
+            "options": {
+              "sudden": "Pl�tsligt",
+              "gradual": "Gradvis",
+              "fluctuating": "V�xlande"
+            }
+          },
+          "pain": {
+            "label": "Sm�rtniv� (110)"
+          }
+        }
+      }
+    },
+    "followUps": {
+      "swollenLeg": {
+        "title": "F�ljdfr�gor: Svullet ben",
+        "questions": {
+          "redness": "�r benet r�tt eller missf�rgat?",
+          "warmth": "�r benet varmt vid ber�ring?",
+          "duration": "Hur l�nge har benet varit svullet?"
+        },
+        "placeholder": "t.ex. 2 dagar, 1 vecka"
+      },
+      "headInjury": {
+        "title": "F�ljdfr�gor: Huvudskada",
+        "questions": {
+          "dizziness": "K�nner du dig yr?",
+          "vomiting": "Har du kr�kts?",
+          "consciousness": "Har du f�rlorat medvetandet?"
+        }
+      },
+      "chestPain": {
+        "title": "F�ljdfr�gor: Br�stsm�rta",
+        "questions": {
+          "radiation": "Str�lar sm�rtan mot arm, k�ke eller rygg?",
+          "breath": "�r du andf�dd?",
+          "nausea": "K�nner du illam�ende?"
+        }
+      }
+    },
+    "options": {
+      "yes": "Ja",
+      "no": "Nej",
+      "notSure": "Os�ker"
+    },
+    "vitalNames": {
+      "temperature": "Temperatur",
+      "heart_rate": "Puls",
+      "spo2": "SpO�",
+      "blood_pressure": "Blodtryck",
+      "respiratory_rate": "Andningsfrekvens",
+      "pain_level": "Sm�rtniv�"
+    },
+    "info": {
+      "close": "St�ng modal",
+      "symptom": {
+        "title": "Huvudsymtom",
+        "description": "Beskriv ditt huvudsymtom eller besv�r. Var s� specifik som m�jligt (t.ex. \"br�stsm�rta\", \"huvudv�rk i 3 dagar\", \"feber och hosta\")."
+      },
+      "temperature": {
+        "title": "Temperatur",
+        "description": "M�t din kroppstemperatur med en termometer. Normal temperatur �r cirka 36,537,5 �C. Placera termometern under tungan eller i armh�lan f�r en s�ker avl�sning."
+      },
+      "heart_rate": {
+        "title": "Puls",
+        "description": "Hitta din puls p� handled eller hals. R�kna slagen i 30 sekunder och multiplicera med 2, eller r�kna i en hel minut. Normal vilopuls �r 60100 slag per minut."
+      },
+      "spo2": {
+        "title": "SpO� (syrem�ttnad)",
+        "description": "M�t blodets syres�ttning med en pulsoximeter. S�tt den p� fingret och v�nta p� v�rdet. Normal SpO� �r 95100 %. V�rden under 90 % kan tyda p� akuta problem."
+      },
+      "blood_pressure": {
+        "title": "Blodtryck",
+        "description": "M�t blodtrycket med en blodtrycksm�tare. Normalt blodtryck ligger ofta runt 120/80 mmHg. Ange v�rdet i formatet systoliskt/diastoliskt (t.ex. 120/80)."
+      },
+      "duration": {
+        "title": "Varaktighet",
+        "description": "Hur l�nge har du haft symtomen? Detta hj�lper oss att bed�ma hur br�dskande v�rdbehovet �r."
+      },
+      "respiratory_rate": {
+        "title": "Andningsfrekvens",
+        "description": "R�kna antalet andetag per minut. Titta p� br�stkorgen, r�kna i 30 sekunder och multiplicera med 2 eller r�kna i en hel minut. Normal andningsfrekvens hos vuxna �r 1220 andetag per minut."
+      },
+      "level_of_consciousness": {
+        "title": "Medvetandegrad",
+        "description": "Vaken: helt alert. Reagerar p� r�st: svarar n�r du pratar med personen. Reagerar p� sm�rta: svarar endast p� sm�rtstimuli. Ingen respons: reagerar inte alls."
+      },
+      "onset": {
+        "title": "Debut",
+        "description": "Pl�tsligt: symtomen kom snabbt (inom minuter). Gradvis: symtomen utvecklades under timmar eller dagar. V�xlande: symtomen kommer och g�r eller varierar i intensitet."
+      },
+      "pain_level": {
+        "title": "Sm�rtniv�",
+        "description": "Skatta sm�rtan p� en skala 010. 0 = ingen sm�rta, 13 = mild, 46 = m�ttlig, 78 = sv�r, 910 = mycket sv�r. Det hj�lper oss att bed�ma allvarlighetsgraden."
+      }
+    },
+    "common": {
+      "na": "Saknas"
+    },
+    "medicalHistory": {
+      "modal": {
+        "title": "Medicinsk historik",
+        "subtitle": "Denna information hj�lper oss att ge en mer exakt bed�mning",
+        "skip": "Hoppa �ver",
+        "continue": "Forts�tt",
+        "skipConfirm": "�r du s�ker? Din medicinska historik kommer att hoppas �ver."
+      },
+      "yes": "Ja",
+      "no": "Nej",
+      "conditions": {
+        "question": "Har du n�gra medicinska tillst�nd?",
+        "otherLabel": "Eller beskriv andra riskfaktorer",
+        "otherPlaceholder": "Beskriv andra riskfaktorer eller sjukdomar du har..."
+      },
+      "medications": {
+        "title": "L�kemedel",
+        "description": "V�lj val av l�kemedel du tar regelbundet (s�rskilt blodf�rtunnande):",
+        "otherLabel": "Eller beskriv andra l�kemedel",
+        "otherPlaceholder": "Beskriv andra l�kemedel du tar regelbundet..."
+      },
+      "pregnancy": {
+        "question": "Graviditet",
+        "followUp": "Hur l�ngt g�ngen �r du?",
+        "trimester": {
+          "first": "F�rsta trimestern (0-12 veckor)",
+          "second": "Andra trimestern (13-27 veckor)",
+          "third": "Tredje trimestern (28+ veckor)"
+        },
+        "weeks": "Veckor",
+        "weeksPlaceholder": "t.ex. 24"
+      },
+      "trauma": {
+        "question": "Nyligen kraftigt trauma/skada",
+        "type": "Vilken typ av trauma/skada?",
+        "types": {
+          "head": "Huvudskada",
+          "chest": "Br�stskada",
+          "abdomen": "Magsm�rta/Bukskada",
+          "limb": "Lem/Extremitet skada",
+          "back": "Rygg/Ryggradsskada",
+          "other": "Annat"
+        },
+        "description": "Beskriv trauma/skadan",
+        "descriptionPlaceholder": "Beskriv vad som h�nde, n�r det intr�ffade och eventuella symtom..."
+      },
+      "validation": {
+        "selectConditionOrText": "V�nligen v�lj minst ett tillst�nd eller ange detaljer i textf�ltet",
+        "selectMedicationOrText": "V�nligen v�lj minst ett l�kemedel eller ange detaljer i textf�ltet",
+        "selectTrimesterOrWeeks": "V�nligen v�lj en trimester eller ange antal veckor"
+      }
+    }
+  },
+  "processing": {
+    "progress": {
+      "step": "Steg {current} av {total}",
+      "labels": {
+        "input": "Input",
+        "analyzing": "Analys",
+        "results": "Resultat"
+      }
+    },
+    "status": {
+      "title": "Analyserar din h�lsoinformation...",
+      "subtitle": "V�nligen v�nta medan vi bearbetar dina data och bed�mer din riskniv�."
+    },
+    "steps": {
+      "collecting": "Samlar in data",
+      "analyzing": "Analyserar symtom",
+      "evaluating": "Bed�mer riskniv�",
+      "generating": "Genererar resultat"
+    },
+    "cta": "Visa resultat"
+  },
+  "results": {
+    "loading": "Laddar resultat...",
+    "shareSummary": {
+      "title": "TriageX-bed�mningsresultat",
+      "risk": "Riskniv�: {level}",
+      "confidence": "F�rtroende: {value}%"
+    },
+    "toasts": {
+      "apiFallback": "Vi n�dde inte servern. Visar en demo-bed�mning ist�llet.",
+      "print": "�ppnar utskriftsdialog...",
+      "shareSuccess": "Resultatet delades.",
+      "shareCanceled": "Delning avbr�ts.",
+      "copySuccess": "Sammanfattningen kopierades till urklipp.",
+      "copyFail": "Kunde inte kopiera sammanfattningen. F�rs�k igen.",
+      "shareUnsupported": "Delning st�ds inte p� den h�r enheten.",
+      "email": "�ppnar din e-postklient..."
+    },
+    "progress": {
+      "step": "Steg {current} av {total}",
+      "label": "Resultat"
+    },
+    "confidence": {
+      "label": "F�rtroende",
+      "tooltipTitle": "Vad p�verkar f�rtroendet?",
+      "tooltipItems": [
+        "Hur fullst�ndiga symtomen �r",
+        "Noggrannhet i vitalparametrar",
+        "Tydlighet i symtombeskrivningar",
+        "Konsekvens i angivna v�rden"
+      ],
+      "high": "H�gt f�rtroende",
+      "moderate": "M�ttligt f�rtroende",
+      "low": "L�gt f�rtroende  mer information kan hj�lpa"
+    },
+    "lowConfidence": {
+      "title": "Bed�mning med l�gt f�rtroende",
+      "description": "Baserat p� informationen vi f�tt har vi l�gre f�rtroende f�r denna bed�mning. F�r din s�kerhet rekommenderar vi:",
+      "items": [
+        "Kontakta v�rdpersonal f�r vidare bed�mning",
+        "Ge mer detaljerade symtombeskrivningar om m�jligt",
+        "F�lj dina symtom noggrant och s�k v�rd om de f�rv�rras"
+      ],
+      "actions": {
+        "call1177": "Ring 1177 (Sjukv�rdsr�dgivning)",
+        "call112": "Ring 112 (Akut)"
+      }
+    },
+    "recommendations": "Rekommendationer:",
+    "explanation": {
+      "title": "Nyckelfaktorer i denna bed�mning",
+      "subtitle": "F�ljande faktorer p�verkade denna rekommendation:",
+      "increasedRisk": "�kad risk",
+      "decreasedRisk": "Minskad risk",
+      "category": {
+        "vital_signs": "Vitalparametrar",
+        "symptom_scenario": "Symtom",
+        "general": "Allm�nt",
+        "emergency": "Akut"
+      }
+    },
+    "share": {
+      "print": "Skriv ut",
+      "share": "Dela",
+      "email": "E-post"
+    },
+    "actions": {
+      "checkAnother": "Kontrollera ett annat symtom"
+    },
+    "fallback": {
+      "message": "Inte akut men b�r f�ljas upp av v�rden.",
+      "recommendations": [
+        "F�lj symtomen hemma",
+        "Kontakta prim�rv�rden inom 2448 timmar"
+      ],
+      "safety": "Om symtomen f�rv�rras, kontakta akutsjukv�rden omedelbart."
+    },
+    "disclaimer": {
+      "title": "Viktigt:",
+      "body": "TriageX st�ller ingen diagnos. Verktyget ger rekommendationer om v�rdniv� utifr�n dina uppgifter. Om symtomen blir v�rre eller allvarliga, ring 112 direkt. Verktyget ers�tter inte medicinskt omd�me."
+    },
+    "triage": {
+      "self_care": {
+        "title": "Egenv�rd",
+        "description": "Milda symtom som kan f�ljas hemma."
+      },
+      "primary_care": {
+        "title": "Prim�rv�rd",
+        "description": "Inte akut, kontakta l�kare om symtomen kvarst�r."
+      },
+      "semi_emergency": {
+        "title": "Halv-akut",
+        "description": "M�jlig risk  s�k v�rd inom n�gra timmar."
+      },
+      "emergency": {
+        "title": "Akutl�ge",
+        "description": "Kritiskt  s�k v�rd omedelbart."
+      }
+    },
+    "triageContent": {
+      "self_care": {
+        "message": "Milda symtom som kan hanteras hemma.",
+        "recommendations": [
+          "Vila, drick ordentligt och sov tillr�ckligt",
+          "F�lj symtomen f�r f�r�ndringar",
+          "Anv�nd receptfria l�kemedel vid behov",
+          "S�k v�rd om symtomen pl�tsligt f�rv�rras"
+        ],
+        "safety": "Om nya symtom tillkommer eller du m�r s�mre, kontakta v�rden."
+      },
+      "primary_care": {
+        "message": "Inte akut, men boka v�rdkontakt inom 2448 timmar.",
+        "recommendations": [
+          "Boka tid hos din v�rdcentral",
+          "�vervaka symtomen noggrant",
+          "F�r en symtomdagbok",
+          "S�k v�rd om symtomen f�rv�rras"
+        ],
+        "safety": "Denna bed�mning har l�gre s�kerhet p� grund av begr�nsad information. Kontakta v�rden f�r uppf�ljning."
+      },
+      "semi_emergency": {
+        "message": "M�jlig risk uppt�ckt  s�k v�rd inom n�gra timmar.",
+        "recommendations": [
+          "Kontakta n�rakut eller jourmottagning",
+          "Ordna transport till en v�rdinr�ttning",
+          "L�t n�gon stanna hos dig och �vervaka symtomen",
+          "Ta med medicinlista och sjukhistoria"
+        ],
+        "safety": "Om symtomen tilltar eller andningen blir sv�r, ring 112 omedelbart."
+      },
+      "emergency": {
+        "message": "Kritiska symtom  s�k akutv�rd omedelbart.",
+        "recommendations": [
+          "Ring 112 direkt",
+          "K�r inte sj�lv; inv�nta ambulans",
+          "H�ll luftv�garna fria och f�lj larmoperat�rens instruktioner",
+          "L�t n�gon samla dina mediciner och legitimation"
+        ],
+        "safety": "Stanna i kontakt med larmcentralen tills hj�lp anl�nder."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Om TriageX",
+      "subtitle": "Vi bygger framtidens v�rdtriage med AI-st�dda beslutsunderlag."
+    },
+    "mission": {
+      "title": "V�rt uppdrag",
+      "description": "G�r v�rdtriage tillg�ngligt, tr�ffs�kert och s�kert genom att kombinera AI med evidensbaserad medicinsk logik."
+    },
+    "vision": {
+      "title": "V�r vision",
+      "description": "En v�rld d�r alla patienter f�r snabb och r�tt v�rdniv� medan AI-triage minskar v�ntetiderna."
+    },
+    "team": {
+      "title": "V�rt team",
+      "subtitle": "Byggt av kliniker, dataforskare, ingenj�rer och v�rdinnovat�rer.",
+      "cards": {
+        "clinical": {
+          "title": "Klinisk expertis",
+          "description": "Decennier av erfarenhet fr�n akutsjukv�rd, prim�rv�rd och triage s�kerst�ller att v�ra modeller f�ljer b�sta praxis."
+        },
+        "ai": {
+          "title": "AI-innovation",
+          "description": "Avancerade AI-modeller l�r sig av verkliga triagedata med bibeh�llen s�kerhet och tolkbarhet."
+        },
+        "impact": {
+          "title": "P�verkan i v�rden",
+          "description": "Vi samarbetar med v�rdgivare, produktteam och compliance-ledare f�r smidiga inf�randen."
+        }
+      }
+    },
+    "compliance": {
+      "title": "Efterlevnad & tillit",
+      "description": "Utformat med regeluppfyllnad och patients�kerhet i fokus. Vi h�ller h�gsta niv� p� integritet och s�kerhet.",
+      "badges": {
+        "hipaa": {
+          "title": "HIPAA-efterlevnad",
+          "subtitle": "Skyddad patientdata"
+        },
+        "gdpr": {
+          "title": "GDPR-redo",
+          "subtitle": "EU-dataskydd"
+        },
+        "iso": {
+          "title": "ISO 27001",
+          "subtitle": "Informationss�kerhet"
+        },
+        "mdr": {
+          "title": "MDR klass I",
+          "subtitle": "Redo f�r medicinteknik"
+        }
+      },
+      "footer": "Regelbundna s�kerhetsgranskningar, compliance-revisioner och klinisk validering h�ller oss p� h�gsta niv�."
+    },
+    "cta": {
+      "title": "Redo att komma ig�ng?",
+      "description": "Testa TriageX sj�lv eller kontakta oss f�r att se hur vi kan st�rka er triage.",
+      "primaryButton": "Starta bed�mning",
+      "primaryButtonMobile": "Starta",
+      "secondaryButton": "Kontakta oss"
+    }
+  },
+  "resources": {
+    "hero": {
+      "title": "Resurser f�r lansering och skalning",
+      "subtitle": "Nedladdningsbara guider, checklistor och material f�r kliniker, produktteam och compliance-ansvariga."
+    },
+    "columns": {
+      "implementation": {
+        "title": "Implementeringsguider",
+        "subtitle": "Utvalda material som informerar intressenter och s�krar kvalitet.",
+        "cards": {
+          "clinicalQuickStart": {
+            "title": "Snabbstart f�r kliniska team",
+            "description": "Integrera TriageX i en digital ing�ng snabbt."
+          },
+          "apiSheet": {
+            "title": "API- och integrationsguide",
+            "description": "REST-endpoints, payload-exempel och autentisering."
+          },
+          "mdrChecklist": {
+            "title": "MDR-checklista",
+            "description": "Dokumentationspaket f�r EU MDR klass I-granskningar."
+          }
+        }
+      },
+      "product": {
+        "title": "Produktblad",
+        "subtitle": "Utvalda material som informerar intressenter och s�krar kvalitet.",
+        "cards": {
+          "investor": {
+            "title": "Investerarblad",
+            "description": "AI-modell, triagelogik och traction-m�tt."
+          },
+          "workflow": {
+            "title": "Kliniskt arbetsfl�de",
+            "description": "Utskrivbart fl�de f�r v�ntrum och triageytor."
+          },
+          "tokens": {
+            "title": "Designsystemets tokens",
+            "description": "F�rg, typografi och interaktionsm�nster."
+          }
+        }
+      },
+      "thought": {
+        "title": "Thought Leadership",
+        "subtitle": "Utvalda material som informerar intressenter och s�krar kvalitet.",
+        "cards": {
+          "hybrid": {
+            "title": "AI-triage i hybridv�rd",
+            "description": "Whitepaper om att minska v�ntetider i digital och fysisk v�rd."
+          },
+          "literacy": {
+            "title": "Design f�r h�lsolitteracitet",
+            "description": "UX-m�nster som f�rb�ttrar f�rst�elsen vid hemtriage."
+          },
+          "governance": {
+            "title": "S�ker AI-styrning",
+            "description": "Handbok f�r att f�lja upp modell-drift och eskaleringsregler."
+          }
+        }
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Prata med TriageX-teamet",
+      "subtitle": "Oavsett om du validerar AI-triage eller planerar ett pilotprojekt vill vi g�rna h�ra fr�n dig."
+    },
+    "form": {
+      "labels": {
+        "fullName": "Fullst�ndigt namn",
+        "workEmail": "Jobbmejl",
+        "organization": "Organisation",
+        "primaryTopic": "Huvud�mne",
+        "message": "Meddelande"
+      },
+      "placeholders": {
+        "fullName": "Ange ditt fullst�ndiga namn",
+        "workEmail": "namn@f�retag.se",
+        "organization": "Ange din organisation",
+        "message": "Beskriv m�l, tidsplan och fr�gor."
+      },
+      "topics": {
+        "placeholder": "V�lj ett �mne",
+        "clinicalPilot": "Klinisk pilot",
+        "productIntegration": "Produktintegration",
+        "compliance": "Regelefterlevnad",
+        "partnership": "Partnerskap",
+        "other": "Annat"
+      },
+      "disclaimer": "Genom att skicka samtycker du till uppdateringar om kliniska piloter och produktnyheter.",
+      "submit": "Skicka"
+    },
+    "validation": {
+      "fullNameRequired": "Fullst�ndigt namn �r obligatoriskt",
+      "workEmailRequired": "Jobbmejl �r obligatoriskt",
+      "workEmailInvalid": "Ange en giltig e-postadress",
+      "organizationRequired": "Organisation �r obligatoriskt",
+      "primaryTopicRequired": "V�lj ett huvud�mne",
+      "messageRequired": "Meddelande �r obligatoriskt"
+    }
+  },
+  "vitalConfirm": {
+    "title": "Bekr�fta vitalparameter",
+    "subtitle": "�r du s�ker p� att v�rdet st�mmer?",
+    "confirm": "Ja, det st�mmer",
+    "reject": "Nej, l�t mig �ndra",
+    "help": "Beh�ver du hj�lp direkt?",
+    "call1177": "Ring 1177 (Sjukv�rdsr�dgivning)",
+    "call112": "Ring 112 (Akut)"
+  }
+}
